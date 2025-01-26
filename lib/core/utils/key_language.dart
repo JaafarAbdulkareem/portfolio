@@ -21,4 +21,11 @@ class KeyLanguage {
   static const String mobileFlutter = "mobileFlutter";
   static const String beautyResponsive = "beautyResponsive";
   static const String crossPlatform = "crossPlatform";
+  static const String address = "address";
+  static const String timeWork = "timeWork";
+  static const String frontend = "frontend";
+  static const String backend = "backend";
+  static const String download = "download";
+  static const String successfully = "successfully";
+  static const String failed = "failed";
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/models/appbar_contact_model.dart';
-import 'package:my_portfolio/core/utils/animated_button.dart';
+import 'package:my_portfolio/core/widget/animated_button.dart';
 import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/core/utils/constant_social_media.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
@@ -29,7 +29,7 @@ class AppbarContact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      // mainAxisAlignment: MainAxisAlignment.center,
       children: data
           .map(
             (e) => AnimatedButton(
@@ -43,7 +43,7 @@ class AppbarContact extends StatelessWidget {
                     }
                   },
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    padding: const EdgeInsets.only(right: 16),
                     child: AppbarContactItem(data: e),
                   ),
                 );

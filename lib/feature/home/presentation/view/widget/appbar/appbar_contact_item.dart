@@ -14,15 +14,13 @@ class AppbarContactItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Center(
-          child: SvgPicture.asset(
-            data.image,
-            width: 20,
-            height: 20,
-            colorFilter: const ColorFilter.mode(
-              AppColor.primary,
-              BlendMode.srcIn,
-            ),
+        SvgPicture.asset(
+          data.image,
+          width: 20,
+          height: 20,
+          colorFilter: const ColorFilter.mode(
+            AppColor.primary,
+            BlendMode.srcIn,
           ),
         ),
         const SizedBox(width: 5),

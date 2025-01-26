@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/models/work_introduction_model.dart';
-import 'package:my_portfolio/core/utils/animated_button.dart';
+import 'package:my_portfolio/core/widget/animated_button.dart';
 import 'package:my_portfolio/core/utils/app_color.dart';
 import 'package:my_portfolio/core/utils/constant_work_personal.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
