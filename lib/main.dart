@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/core/controller/language/lang_constant.dart';
+import 'package:my_portfolio/core/controller/language/localizations_delegates.dart';
 import 'package:my_portfolio/screen.dart';
 
 void main() {
@@ -10,10 +12,33 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      //language
+      localizationsDelegates: localizationsDelegates,
+      supportedLocales: _supportedLocales,
+      localeResolutionCallback: _localResolution,
+      //
       debugShowCheckedModeBanner: false,
       title: 'Portfolio',
-      theme: ThemeData(),
+      theme: ThemeData.dark(),
       home: const Screen(),
     );
+  }
+
+  Locale? _localResolution(deviceLocale, supportedLocales) {
+    for (Locale locale in supportedLocales) {
+      if (deviceLocale != null &&
+          deviceLocale.languageCode == locale.languageCode) {
+        return deviceLocale;
+      }
+    }
+    return supportedLocales.first;
+  }
+
+  List<Locale> get _supportedLocales {
+    List<Locale> localesLanguage = [];
+    for (String element in ConstantLang.langs) {
+      localesLanguage.add(Locale(element));
+    }
+    return localesLanguage;
   }
 }
