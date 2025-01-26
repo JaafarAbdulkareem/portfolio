@@ -11,5 +11,14 @@
     "projectComplete": "Projects Completed",
     "codeCommit": "Code Commit",
     "experienceYear": "Experience by Year",
-    "stateManagement": "State Management"
+    "stateManagement": "State Management",
+    "titleObejective": "Soft Developer",
+    "hello": "Hello",
+    "iam": "I am",
+    "flutterDeveloper": "Flutter developer",
+    "introduction": "Specialized in developing seamless and high-performance mobile applications using Flutter, with a focus on delivering elegant user interfaces and robust functionality to create exceptional user experiences.",
+    "iBuild": "I build ",
+    "mobileFlutter": "creating mobile applications using Flutter",
+    "beautyResponsive": "elegant and adaptable user interfaces",
+    "crossPlatform": "seamless cross-platform development solutions"
 }
