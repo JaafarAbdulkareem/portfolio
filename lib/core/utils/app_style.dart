@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/core/utils/app_color.dart';
 import 'package:my_portfolio/core/utils/constant_scale.dart';
 
 double getResponsiveFontSize(BuildContext context, {required double fontSize}) {
@@ -24,7 +25,7 @@ abstract class AppStyles {
   AppStyles._();
   static TextStyle styleIBMRegular14(context) {
     return TextStyle(
-      color: Colors.white,
+      color: AppColorText.primary,
       fontSize: getResponsiveFontSize(context, fontSize: 14),
       fontFamily: 'IBM Plex Mono',
       fontWeight: FontWeight.w400,
@@ -33,7 +34,7 @@ abstract class AppStyles {
 
   static TextStyle styleIBMRegular24(context) {
     return TextStyle(
-      color: const Color(0xFF292F36),
+      color: AppColorText.third,
       fontSize: getResponsiveFontSize(context, fontSize: 24),
       fontFamily: 'IBM Plex Mono',
       fontWeight: FontWeight.w400,
@@ -42,7 +43,7 @@ abstract class AppStyles {
 
   static TextStyle styleIBMMedium48(context) {
     return TextStyle(
-      color: const Color(0xFF12F7D6),
+      color: AppColorText.secondard,
       fontSize: getResponsiveFontSize(context, fontSize: 48),
       fontFamily: 'IBM Plex Mono',
       fontWeight: FontWeight.w500,
@@ -51,7 +52,7 @@ abstract class AppStyles {
 
   static TextStyle styleIBMRegular16(context) {
     return TextStyle(
-      color: Colors.white,
+      color: AppColorText.primary,
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontFamily: 'IBM Plex Mono',
       fontWeight: FontWeight.w400,
@@ -60,7 +61,7 @@ abstract class AppStyles {
 
   static TextStyle styleIBMMedium32(context) {
     return TextStyle(
-      color: Colors.white,
+      color: AppColorText.primary,
       fontSize: getResponsiveFontSize(context, fontSize: 32),
       fontFamily: 'IBM Plex Mono',
       fontWeight: FontWeight.w500,
@@ -69,7 +70,7 @@ abstract class AppStyles {
 
   static TextStyle styleUbuntuRegular20(context) {
     return TextStyle(
-      color: const Color(0xFF292F36),
+      color: AppColorText.third,
       fontSize: getResponsiveFontSize(context, fontSize: 20),
       fontFamily: 'Ubuntu',
       fontWeight: FontWeight.w400,
@@ -78,7 +79,7 @@ abstract class AppStyles {
 
   static TextStyle styleUbuntuRegular32(context) {
     return TextStyle(
-      color: Colors.white,
+      color: AppColorText.primary,
       fontSize: getResponsiveFontSize(context, fontSize: 32),
       fontFamily: 'Ubuntu',
       fontWeight: FontWeight.w400,
@@ -87,7 +88,7 @@ abstract class AppStyles {
 
   static TextStyle styleUbuntuLight16(context) {
     return TextStyle(
-      color: const Color(0xFF12F7D6),
+      color: AppColorText.secondard,
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontFamily: 'Ubuntu',
       fontWeight: FontWeight.w300,
@@ -96,7 +97,7 @@ abstract class AppStyles {
 
   static TextStyle styleUbuntuLite16(context) {
     return TextStyle(
-      color: const Color(0xFF12F7D6),
+      color: AppColorText.secondard,
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontFamily: 'Ubuntu',
       fontWeight: FontWeight.w300,
@@ -105,7 +106,7 @@ abstract class AppStyles {
 
   static TextStyle styleUbuntuRegular45(context) {
     return TextStyle(
-      color: Colors.white,
+      color: AppColorText.primary,
       fontSize: getResponsiveFontSize(context, fontSize: 45),
       fontFamily: 'Ubuntu',
       fontWeight: FontWeight.w400,
