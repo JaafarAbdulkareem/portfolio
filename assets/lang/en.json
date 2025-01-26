@@ -7,5 +7,9 @@
     "contact": "Contact",
     "linkedIn": "LinkedIn",
     "github": "GitHub",
-    "whatsApp": "What's App"
+    "whatsApp": "What's App",
+    "projectComplete": "Projects Completed",
+    "codeCommit": "Code Commit",
+    "experienceYear": "Experience by Year",
+    "stateManagement": "State Management"
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/appbar_feature.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/appbar_introduction.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/appbar/appbar_feature.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/appbar/appbar_introduction.dart';
 
 class CustomAppbar extends StatelessWidget {
   const CustomAppbar({super.key});
