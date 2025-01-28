@@ -24,9 +24,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Portfolio',
       theme: ThemeData.dark(),
-      home: 
-      // Scaffold(body:  ),
-      const Screen(),
+      home:
+          // Scaffold(body:  ),
+          const Screen(),
     );
   }
 
