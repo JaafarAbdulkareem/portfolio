@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:my_portfolio/core/animation_widget/fill_liquid_svg_button_widget.dart';
 import 'package:my_portfolio/core/controller/language/lang_constant.dart';
 import 'package:my_portfolio/core/controller/language/localizations_delegates.dart';
+import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/screen.dart';
+import 'package:my_portfolio/test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +24,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Portfolio',
       theme: ThemeData.dark(),
-      home: const Screen(),
+      home: 
+      // Scaffold(body:  ),
+      const Screen(),
     );
   }
 

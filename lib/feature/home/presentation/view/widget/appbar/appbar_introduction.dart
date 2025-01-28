@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/controller/language/extension_language.dart';
-import 'package:my_portfolio/core/widget/animated_button.dart';
+import 'package:my_portfolio/core/animation_widget/animated_button.dart';
 import 'package:my_portfolio/core/utils/app_color.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/constant_text.dart';

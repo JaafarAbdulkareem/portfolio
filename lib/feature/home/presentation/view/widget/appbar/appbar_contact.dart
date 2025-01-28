@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/models/appbar_contact_model.dart';
-import 'package:my_portfolio/core/widget/animated_button.dart';
+import 'package:my_portfolio/core/animation_widget/animated_button.dart';
 import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/core/utils/constant_social_media.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';

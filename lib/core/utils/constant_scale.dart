@@ -1,8 +1,10 @@
 // import 'package:flutter/material.dart';
 
 class ConstantScale {
-  static double tablet = 855;
-  static double desktop = 1185;
+  static const double tablet = 855;
+  static const double desktop = 1185;
+  static const double cardHeight = 450;
+  static const double cardWidth = 290;
 
   // static double calculateResponsiveSize(
   //   BuildContext context, {

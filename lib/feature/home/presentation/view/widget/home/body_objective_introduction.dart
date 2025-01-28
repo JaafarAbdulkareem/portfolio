@@ -16,7 +16,7 @@ class BodyObjectiveIntroduction extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SizedBox(height: 62),
+        const SizedBox(height: 24),
         Text.rich(
           TextSpan(
             children: [
