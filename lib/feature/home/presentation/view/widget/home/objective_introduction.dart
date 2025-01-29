@@ -24,8 +24,8 @@ class ObjectiveIntroduction extends StatelessWidget {
         const AppbarContact(),
         const SizedBox(height: 24),
         const VibratingWidget(
-          waitingSecond: 5,
-          vibrateCount: 5,
+          waitingSecond: 3,
+          vibrateCount: 10,
           child: DownloadCv(),
         ),
         const SizedBox(height: 58 - 24),

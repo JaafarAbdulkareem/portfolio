@@ -27,5 +27,17 @@
     "backend": "Backend",
     "download": "Download CV",
     "successfully": "Successfully",
-    "failed": "Failed"
+    "failed": "Failed",
+    "myNameIs": "My name is ",
+    "and": " and ",
+    "iMobileApp": "I specialize in mobile application development utilizing ",
+    "flutter": "Flutter ",
+    "myExpertise": "My expertise lies in designing and developing high-quality applications that operate efficiently on both ",
+    "android": "Android ",
+    "ios": "iOs ",
+    "aboutPlatform": "platforms, with a strong emphasis on delivering seamless user experiences and visually appealing interfaces.",
+    "cleanCode": "I am committed to writing clean, maintainable, and scalable code while adhering to industry best practices and modern methodologies in application development. ",
+    "inAddition": "In addition to my professional work, I actively explore emerging tools and technologies within the Flutter ecosystem, contribute to open-source projects, and continuously refine my technical skills. ",
+    "myObjective": "My objective is to transform innovative ideas into high-performing applications that enhance user experiences and simplify everyday tasks. ",
+    "bestRegards": "Best regards,"
 }

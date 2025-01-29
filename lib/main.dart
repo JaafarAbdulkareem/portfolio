@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       title: 'Portfolio',
       theme: ThemeData.dark(),
       home:
-          // Scaffold(body:  ),
+          // Scaffold(body: ),
           const Screen(),
     );
   }

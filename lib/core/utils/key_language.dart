@@ -28,4 +28,16 @@ class KeyLanguage {
   static const String download = "download";
   static const String successfully = "successfully";
   static const String failed = "failed";
+  static const String myNameIs = "myNameIs";
+  static const String and = "and";
+  static const String iMobileApp = "iMobileApp";
+  static const String flutter = "flutter";
+  static const String myExpertise = "myExpertise";
+  static const String android = "android";
+  static const String ios = "ios";
+  static const String aboutPlatform = "aboutPlatform";
+  static const String cleanCode = "cleanCode";
+  static const String inAddition = "inAddition";
+  static const String myObjective = "myObjective";
+  static const String bestRegards = "bestRegards";
 }

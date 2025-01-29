@@ -6,6 +6,10 @@ class AppImage {
   /// assets/images/arduino.svg
   static const String imagesArduino = "assets/images/arduino.svg";
 
+  /// Assets for imagesBackground1
+  /// assets/images/background1.png
+  static const String imagesBackground1 = "assets/images/background1.png";
+
   /// Assets for imagesBriefcase
   /// assets/images/briefcase.svg
   static const String imagesBriefcase = "assets/images/briefcase.svg";
