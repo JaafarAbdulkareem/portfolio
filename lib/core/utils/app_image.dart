@@ -2,6 +2,10 @@
 class AppImage {
   AppImage._();
   
+  /// Assets for images4
+  /// assets/images/4.png
+  static const String images4 = "assets/images/4.png";
+
   /// Assets for imagesArduino
   /// assets/images/arduino.svg
   static const String imagesArduino = "assets/images/arduino.svg";
@@ -9,6 +13,10 @@ class AppImage {
   /// Assets for imagesBackground1
   /// assets/images/background1.png
   static const String imagesBackground1 = "assets/images/background1.png";
+
+  /// Assets for imagesBookly
+  /// assets/images/bookly.png
+  static const String imagesBookly = "assets/images/bookly.png";
 
   /// Assets for imagesBriefcase
   /// assets/images/briefcase.svg
@@ -37,6 +45,10 @@ class AppImage {
   /// Assets for imagesDownload
   /// assets/images/download.svg
   static const String imagesDownload = "assets/images/download.svg";
+
+  /// Assets for imagesEcommerce
+  /// assets/images/ecommerce.png
+  static const String imagesEcommerce = "assets/images/ecommerce.png";
 
   /// Assets for imagesFirebase
   /// assets/images/firebase.svg
@@ -81,6 +93,10 @@ class AppImage {
   /// Assets for imagesMysql
   /// assets/images/mysql.svg
   static const String imagesMysql = "assets/images/mysql.svg";
+
+  /// Assets for imagesNoteApp
+  /// assets/images/noteApp.png
+  static const String imagesNoteApp = "assets/images/noteApp.png";
 
   /// Assets for imagesPhp
   /// assets/images/php.svg
