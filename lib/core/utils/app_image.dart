@@ -14,9 +14,17 @@ class AppImage {
   /// assets/images/briefcase.svg
   static const String imagesBriefcase = "assets/images/briefcase.svg";
 
+  /// Assets for imagesC
+  /// assets/images/c.svg
+  static const String imagesC = "assets/images/c.svg";
+
   /// Assets for imagesCertificate
   /// assets/images/certificate.svg
   static const String imagesCertificate = "assets/images/certificate.svg";
+
+  /// Assets for imagesCpp
+  /// assets/images/cpp.svg
+  static const String imagesCpp = "assets/images/cpp.svg";
 
   /// Assets for imagesCss
   /// assets/images/css.svg
@@ -65,6 +73,10 @@ class AppImage {
   /// Assets for imagesMap
   /// assets/images/map.svg
   static const String imagesMap = "assets/images/map.svg";
+
+  /// Assets for imagesMvvm
+  /// assets/images/mvvm.svg
+  static const String imagesMvvm = "assets/images/mvvm.svg";
 
   /// Assets for imagesMysql
   /// assets/images/mysql.svg
