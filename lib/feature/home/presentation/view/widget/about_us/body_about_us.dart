@@ -12,7 +12,7 @@ class BodyAboutUs extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 880,
+          width: 680,
           padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 24),
           decoration: ShapeDecoration(
             color: const Color(0xFF292F36),

@@ -17,7 +17,14 @@ class AboutUs extends StatelessWidget {
             title: KeyLanguage.aboutUs,
           ),
           SizedBox(height: 24),
-          FoggyWidget(child: BodyAboutUs(),),
+          FoggyWidget(
+            child: Padding(
+              padding: EdgeInsets.symmetric(
+                horizontal: 32,
+              ),
+              child: BodyAboutUs(),
+            ),
+          ),
         ],
       ),
     );

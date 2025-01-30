@@ -52,4 +52,5 @@ class KeyLanguage {
   static const String c = "c";
   static const String responsive = "responsive";
   static const String arduino = "arduino";
+  static const String worksDescription = "worksDescription";
 }
