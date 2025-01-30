@@ -6,6 +6,7 @@ abstract class AppColor {
 // static const Color workBackground = Color(0xFF1A1E23);
 // static const Color workShadow = Color(0x3F000000);
   static const Color cardBackground = Color(0xFF292F36);
+  static const Color percentage = Color(0xFFf0c10c);
 
 // Color(0xFFC81D1D);
 //   static const Color seconderd = Color(0xFF);

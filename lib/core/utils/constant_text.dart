@@ -4,4 +4,5 @@ abstract class ConstantText {
   static const String lessArrowSymble = "<";
   static const String bigArrowSymble = ">";
   static const String flutter = "flutter";
+  static const String precentage = "%";
 }

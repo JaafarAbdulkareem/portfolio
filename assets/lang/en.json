@@ -39,5 +39,19 @@
     "cleanCode": "I am committed to writing clean, maintainable, and scalable code while adhering to industry best practices and modern methodologies in application development. ",
     "inAddition": "In addition to my professional work, I actively explore emerging tools and technologies within the Flutter ecosystem, contribute to open-source projects, and continuously refine my technical skills. ",
     "myObjective": "My objective is to transform innovative ideas into high-performing applications that enhance user experiences and simplify everyday tasks. ",
-    "bestRegards": "Best regards,"
+    "bestRegards": "Best regards,",
+    "dart":"Dart",
+    "database":"Database",
+    "mvvm":"MVVM",
+    "firebase":"Firebase",
+    "php":"PHP",
+    "postman":"Postman",
+    "git":"Git",
+    "java":"JAVA",
+    "cpp" : "C++",
+    "c":"C",
+    "css":"CSS",
+    "html":"HTML",
+    "responsive":"Responsive",
+    "arduino":"Arduino"
 }

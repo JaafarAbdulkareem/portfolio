@@ -40,4 +40,16 @@ class KeyLanguage {
   static const String inAddition = "inAddition";
   static const String myObjective = "myObjective";
   static const String bestRegards = "bestRegards";
+  static const String dart = "dart";
+  static const String database = "database";
+  static const String mvvm = "mvvm";
+  static const String firebase = "firebase";
+  static const String php = "php";
+  static const String postman = "postman";
+  static const String git = "git";
+  static const String java = "java";
+  static const String cpp = "cpp";
+  static const String c = "c";
+  static const String responsive = "responsive";
+  static const String arduino = "arduino";
 }
