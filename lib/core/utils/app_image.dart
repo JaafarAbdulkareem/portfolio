@@ -2,10 +2,6 @@
 class AppImage {
   AppImage._();
   
-  /// Assets for images4
-  /// assets/images/4.png
-  static const String images4 = "assets/images/4.png";
-
   /// Assets for imagesArduino
   /// assets/images/arduino.svg
   static const String imagesArduino = "assets/images/arduino.svg";
@@ -13,6 +9,10 @@ class AppImage {
   /// Assets for imagesBackground1
   /// assets/images/background1.png
   static const String imagesBackground1 = "assets/images/background1.png";
+
+  /// Assets for imagesBackgroundCard
+  /// assets/images/backgroundCard.png
+  static const String imagesBackgroundCard = "assets/images/backgroundCard.png";
 
   /// Assets for imagesBookly
   /// assets/images/bookly.png
