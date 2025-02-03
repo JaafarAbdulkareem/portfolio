@@ -4,18 +4,21 @@ import 'package:my_portfolio/feature/home/presentation/view/widget/appbar/appbar
 import 'package:my_portfolio/feature/home/presentation/view/widget/appbar/appbar_introduction.dart';
 
 class CustomAppbar extends StatelessWidget {
-  const CustomAppbar({super.key});
-
+  const CustomAppbar({
+    super.key,
+    required this.index,
+  });
+  final Function(int) index;
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 25),
+    return  Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 25),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          AppbarIntroduction(),
-          AppbarFeature(),
-          AppbarChange(),
+          const AppbarIntroduction(),
+          AppbarFeature(index:index),
+          const AppbarChange(),
         ],
       ),
     );

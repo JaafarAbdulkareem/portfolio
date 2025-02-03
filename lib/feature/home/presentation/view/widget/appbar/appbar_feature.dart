@@ -6,8 +6,11 @@ import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
 
 class AppbarFeature extends StatelessWidget {
-  const AppbarFeature({super.key});
-
+  const AppbarFeature({
+    super.key,
+    required this.index,
+  });
+  final Function(int) index;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -15,7 +18,9 @@ class AppbarFeature extends StatelessWidget {
       children: [
         AnimatedButton(
           child: (isHaver) => TextButton(
-            onPressed: () {},
+            onPressed: () {
+              index(0);
+            },
             child: Text(
               KeyLanguage.home.tr(context),
               style: AppStyles.styleUbuntuRegular20(context).copyWith(
@@ -26,7 +31,9 @@ class AppbarFeature extends StatelessWidget {
         ),
         AnimatedButton(
           child: (isHaver) => TextButton(
-            onPressed: () {},
+            onPressed: () {
+              index(1);
+            },
             child: Text(
               KeyLanguage.aboutUs.tr(context),
               style: AppStyles.styleUbuntuRegular20(context).copyWith(
@@ -37,7 +44,9 @@ class AppbarFeature extends StatelessWidget {
         ),
         AnimatedButton(
           child: (isHaver) => TextButton(
-            onPressed: () {},
+            onPressed: () {
+              index(2);
+            },
             child: Text(
               KeyLanguage.skill.tr(context),
               style: AppStyles.styleUbuntuRegular20(context).copyWith(
@@ -48,7 +57,9 @@ class AppbarFeature extends StatelessWidget {
         ),
         AnimatedButton(
           child: (isHaver) => TextButton(
-            onPressed: () {},
+            onPressed: () {
+              index(3);
+            },
             child: Text(
               KeyLanguage.works.tr(context),
               style: AppStyles.styleUbuntuRegular20(context).copyWith(
@@ -59,7 +70,9 @@ class AppbarFeature extends StatelessWidget {
         ),
         AnimatedButton(
           child: (isHaver) => TextButton(
-            onPressed: () {},
+            onPressed: () {
+              index(4);
+            },
             child: Text(
               KeyLanguage.contact.tr(context),
               style: AppStyles.styleUbuntuRegular20(context).copyWith(
