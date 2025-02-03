@@ -53,4 +53,14 @@ class KeyLanguage {
   static const String responsive = "responsive";
   static const String arduino = "arduino";
   static const String worksDescription = "worksDescription";
+  static const String contactDescription = "contactDescription";
+  static const String name = "name";
+  static const String email = "email";
+  static const String message = "message";
+  static const String clean = "clean";
+  static const String send = "send";
+  static const String canNotEmpty = "canNotEmpty";
+  static const String invalidEmail = "invalidEmail";
+  static const String successSendMessage = "successSendMessage";
+  static const String failedSendMessage = "failedSendMessage";
 }
