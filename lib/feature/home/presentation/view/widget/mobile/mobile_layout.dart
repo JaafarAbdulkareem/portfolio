@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:my_portfolio/core/controller/controller.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/mobile/appbar/custom_appbar_mobile.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/mobile/appbar/custom_drower.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/mobile/body_mobile_layout.dart';
 
 class MobileLayout extends StatelessWidget {
   const MobileLayout({super.key});
@@ -20,6 +21,7 @@ class MobileLayout extends StatelessWidget {
         const Center(
           child: CustomDrawer(),
         ),
+        Expanded(child: const BodyMobileLayout()),
       ],
     );
   }

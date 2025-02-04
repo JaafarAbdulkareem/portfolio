@@ -13,7 +13,7 @@ double getResponsiveFontSize(BuildContext context, {required double fontSize}) {
 double getScaleFactor(BuildContext context) {
   double width = MediaQuery.sizeOf(context).width;
   if (width < ConstantScale.tablet) {
-    return width / 700;
+    return width / 1200;
   } else {
     return width / 1800;
   }

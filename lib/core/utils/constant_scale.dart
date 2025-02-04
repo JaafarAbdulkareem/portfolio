@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ConstantScale {
   static const double tablet = 400;
-  static const double desktop = 1085;
+  static const double desktop = 1085; 
   static const double hiddenFlutterSymbol = 1155;
   static const double cardHeight = 450;
   static const double cardWidth = 290;

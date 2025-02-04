@@ -27,8 +27,8 @@ class CustomAnimatedTextKit extends StatelessWidget {
               fontSize: width > 425
                   ? 25
                   : width > 350
-                      ? 20
-                      : 17,
+                      ? 18
+                      : 16,
             ),
           ),
         ),
@@ -43,8 +43,8 @@ class CustomAnimatedTextKit extends StatelessWidget {
               fontSize: width > 425
                   ? 25
                   : width > 350
-                      ? 20
-                      : 17,
+                      ? 18
+                      : 16,
             ),
           ),
         ),
@@ -59,8 +59,8 @@ class CustomAnimatedTextKit extends StatelessWidget {
               fontSize: width > 425
                   ? 25
                   : width > 350
-                      ? 20
-                      : 17,
+                      ? 18
+                      : 16,
             ),
           ),
         ),
