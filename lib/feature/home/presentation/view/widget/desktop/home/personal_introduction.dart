@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/animation_widget/bouncing_animation_widget.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/information_developer.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/objective_introduction.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/work_introduction.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/information_developer.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/objective_introduction.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/work_introduction.dart';
 import 'package:my_portfolio/core/animation_widget/flip_card_widget.dart';
 
 class PersonalIntroduction extends StatelessWidget {

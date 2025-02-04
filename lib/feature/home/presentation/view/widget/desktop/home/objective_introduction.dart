@@ -3,9 +3,9 @@ import 'package:my_portfolio/core/animation_widget/vibrating_widget.dart';
 import 'package:my_portfolio/core/controller/language/extension_language.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/appbar/appbar_contact.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/body_objective_introduction.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/download_cv.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/appbar/appbar_contact.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/body_objective_introduction.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/download_cv.dart';
 
 class ObjectiveIntroduction extends StatelessWidget {
   const ObjectiveIntroduction({super.key});

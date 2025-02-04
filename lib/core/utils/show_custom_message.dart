@@ -6,7 +6,7 @@ void showCustomMessage({
   required BuildContext context,
   required String title,
   required String body,
-  Color backgroundColor = AppColor.primary,
+  Color backgroundColor = AppColor.correct,
   Color textColor = AppColorText.primary,
   IconData icon = Icons.check_circle,
 }) {

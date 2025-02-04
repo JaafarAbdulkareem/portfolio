@@ -6,9 +6,16 @@ import 'package:my_portfolio/core/controller/language/localizations_delegates.da
 import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/screen.dart';
 import 'package:my_portfolio/test.dart';
+import 'package:device_preview/device_preview.dart';
 
 void main() {
-  runApp(const MyApp());
+  // runApp(const MyApp());
+  runApp(
+    DevicePreview(
+      enabled: true,
+      builder: (context) => const MyApp(), // Wrap your app
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -16,6 +23,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       //language
       localizationsDelegates: localizationsDelegates,
       supportedLocales: _supportedLocales,

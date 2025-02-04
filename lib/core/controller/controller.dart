@@ -11,10 +11,10 @@ mixin MethodsHomePageController {
   GlobalKey currectKey(int index);
   void soctrol({required GlobalKey keys});
   sendEmailToAdmin(BuildContext context);
-  cleanField();
-  // changeDrawerIcon();
+  clean();
+  changeDrawerIcon();
 }
-mixin VaraiableHomePageController {
+mixin VaraiableHomePageController   {
   final GlobalKey keyHome = GlobalKey();
   final GlobalKey keyAbouteUs = GlobalKey();
   final GlobalKey keySkills = GlobalKey();
@@ -24,27 +24,27 @@ mixin VaraiableHomePageController {
   GlobalKey<ScaffoldState> scaffoldState = GlobalKey();
   //*--------------
   GlobalKey<FormState> formState = GlobalKey<FormState>();
-  late TextEditingController userName;
-  late TextEditingController userEmail;
+  late TextEditingController name;
+  late TextEditingController email;
   late TextEditingController message;
   //*--------------
   IconData icon = Icons.menu;
 }
 
-class HomePageComtrollerImp extends GetxController
-    with VaraiableHomePageController, MethodsHomePageController {
+class HomePageControllerImp extends GetxController
+    with VaraiableHomePageController, MethodsHomePageController  {
   @override
   void onInit() {
-    userName = TextEditingController();
-    userEmail = TextEditingController();
+    name = TextEditingController();
+    email = TextEditingController();
     message = TextEditingController();
     super.onInit();
   }
 
   @override
   void onClose() {
-    userName.dispose();
-    userEmail.dispose();
+    name.dispose();
+    email.dispose();
     message.dispose();
     super.onClose();
   }
@@ -80,8 +80,8 @@ class HomePageComtrollerImp extends GetxController
   sendEmailToAdmin(BuildContext context) async {
     if (formState.currentState!.validate()) {
       await sendEmail(
-        userName: userName.text,
-        userEmail: userEmail.text,
+        userName: name.text,
+        userEmail: email.text,
         message: message.text,
       );
       if (!context.mounted) return;
@@ -90,8 +90,8 @@ class HomePageComtrollerImp extends GetxController
         title: KeyLanguage.successfully,
         body: KeyLanguage.successSendMessage,
       );
-      userName.clear();
-      userEmail.clear();
+      name.clear();
+      email.clear();
       message.clear();
     } else {
       showCustomMessage(
@@ -105,15 +105,15 @@ class HomePageComtrollerImp extends GetxController
   }
 
   @override
-  cleanField() {
-    userName.clear();
-    userEmail.clear();
+  clean() {
+    name.clear();
+    email.clear();
     message.clear();
   }
 
-  // @override
-  // changeDrawerIcon() {
-  //   icon = icon == Icons.cancel ? Icons.menu : Icons.cancel;
-  //   update();
-  // }
+  @override
+  changeDrawerIcon() {
+    icon = icon == Icons.cancel ? Icons.menu : Icons.cancel;
+    update();
+  }
 }

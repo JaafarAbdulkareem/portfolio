@@ -3,7 +3,7 @@ import 'package:my_portfolio/core/models/skill_item_model.dart';
 import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/core/utils/constant_scale.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/skill/skill_item.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/skill/skill_item.dart';
 
 class SkillList extends StatelessWidget {
   const SkillList({super.key});

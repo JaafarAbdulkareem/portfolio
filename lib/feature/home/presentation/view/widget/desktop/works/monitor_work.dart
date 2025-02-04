@@ -5,7 +5,7 @@ import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/core/utils/constant_scale.dart';
 import 'package:my_portfolio/core/utils/constant_social_media.dart';
 import 'package:my_portfolio/core/utils/url_launcher.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/works/expandable_page_view.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/works/expandable_page_view.dart';
 
 class MonitorWork extends StatelessWidget {
   const MonitorWork({

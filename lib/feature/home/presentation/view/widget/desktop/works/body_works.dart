@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/animation_widget/animated_button.dart';
 import 'package:my_portfolio/core/utils/constant_scale.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/works/custom_move_item_buttom.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/works/monitor_work.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/works/custom_move_item_buttom.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/works/monitor_work.dart';
 
 class BodyWorks extends StatelessWidget {
   const BodyWorks({super.key});

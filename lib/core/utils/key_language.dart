@@ -1,5 +1,6 @@
 class KeyLanguage {
   static const String myName = "myName";
+  static const String myFirstName = "myFirstName";
   static const String home = "home";
   static const String aboutUs = "aboutUs";
   static const String skill = "skill";

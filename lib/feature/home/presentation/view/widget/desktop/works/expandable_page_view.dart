@@ -2,7 +2,7 @@ library expandable_page_view;
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/works/size_reporting_widget.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/works/size_reporting_widget.dart';
 
 typedef WidgetBuilder = Widget Function(BuildContext context, int index);
 

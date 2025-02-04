@@ -5,9 +5,9 @@ import 'package:my_portfolio/core/utils/app_color.dart';
 import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/home_card_background_widget.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/information_developer_back_fro.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/information_developer_list.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/home_card_background_widget.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/information_developer_back_fro.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/information_developer_list.dart';
 
 class InformationDeveloper extends StatelessWidget {
   const InformationDeveloper({super.key});

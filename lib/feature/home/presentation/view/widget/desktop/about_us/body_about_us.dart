@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/controller/language/extension_language.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/home/flutter_text_coder.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/flutter_text_coder.dart';
 
 class BodyAboutUs extends StatelessWidget {
   const BodyAboutUs({super.key});

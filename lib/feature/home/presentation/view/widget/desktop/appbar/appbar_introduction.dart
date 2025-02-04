@@ -17,23 +17,32 @@ class AppbarIntroduction extends StatelessWidget {
       child: (isHaver) => Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          Text(
-            ConstantText.cSymble,
-            style: AppStyles.styleIBMRegular24(context).copyWith(
-              color: AppColorText.secondard,
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              ConstantText.cSymble,
+              style: AppStyles.styleIBMRegular24(context).copyWith(
+                color: AppColorText.secondard,
+              ),
             ),
           ),
           const SizedBox(width: 8),
-          Text(
-            KeyLanguage.myName.tr(context),
-            style: AppStyles.styleIBMRegular24(context).copyWith(
-              color: AppColorText.primary,
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              KeyLanguage.myName.tr(context),
+              style: AppStyles.styleIBMRegular24(context).copyWith(
+                color: AppColorText.primary,
+              ),
             ),
           ),
-          Text(
-            ConstantText.semicaleSymble,
-            style: AppStyles.styleIBMRegular24(context).copyWith(
-              color: AppColorText.secondard,
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              ConstantText.semicaleSymble,
+              style: AppStyles.styleIBMRegular24(context).copyWith(
+                color: AppColorText.secondard,
+              ),
             ),
           ),
         ],

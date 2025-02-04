@@ -66,12 +66,15 @@ class _FillLiquidSvgButtonWidgetState extends State<FillLiquidSvgButtonWidget> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    widget.text.tr(context),
-                    style: widget.style.copyWith(
-                      color: isHovered
-                          ? widget.mainTextColor ?? widget.mainColor
-                          : widget.fillTextColor ?? widget.fillColor,
+                  FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(
+                      widget.text.tr(context),
+                      style: widget.style.copyWith(
+                        color: isHovered
+                            ? widget.mainTextColor ?? widget.mainColor
+                            : widget.fillTextColor ?? widget.fillColor,
+                      ),
                     ),
                   ),
                   const SizedBox(width: 4),
@@ -85,7 +88,7 @@ class _FillLiquidSvgButtonWidgetState extends State<FillLiquidSvgButtonWidget> {
                                 : widget.fillTextColor ?? widget.fillColor,
                             BlendMode.srcIn,
                           ),
-                        )
+                        ),
                 ],
               ),
             ),

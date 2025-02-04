@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/controller/language/extension_language.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/about_us/header_title_widget.dart';
-import 'package:my_portfolio/feature/home/presentation/view/widget/works/body_works.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/about_us/header_title_widget.dart';
+import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/works/body_works.dart';
 
 class Works extends StatelessWidget {
   const Works({super.key});
