@@ -89,11 +89,11 @@ class MonitorWork extends StatelessWidget {
 
   Widget _buildProjectImage(String assetPath, double minSize, double maxSize) {
     return ConstrainedBox(
-      constraints: const BoxConstraints(
-          // minWidth: minSize,
-          // maxWidth: maxSize,
-          // minHeight: minSize,
-          // maxHeight: maxSize,
+      constraints:  BoxConstraints(
+          minWidth: minSize,
+          maxWidth: maxSize,
+          minHeight: minSize,
+          maxHeight: maxSize,
           ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(32),
