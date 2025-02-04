@@ -79,9 +79,9 @@ class HomePageControllerImp extends GetxController
   @override
   sendEmailToAdmin(BuildContext context) async {
     await sendEmail(
-      userName: name.text,
-      userEmail: email.text,
-      message: message.text,
+      userName: name.text.trim(),
+      userEmail: email.text.trim(),
+      message: message.text.trim(),
     );
     if (!context.mounted) return;
     showCustomMessage(
@@ -104,9 +104,11 @@ class HomePageControllerImp extends GetxController
 
   @override
   clean() {
-    name.clear();
-    email.clear();
-    message.clear();
+    if (formState.currentState!.validate()) {
+      name.clear();
+      email.clear();
+      message.clear();
+    }
   }
 
   @override
