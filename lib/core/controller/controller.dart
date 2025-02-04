@@ -104,11 +104,9 @@ class HomePageControllerImp extends GetxController
 
   @override
   clean() {
-    if (formState.currentState!.validate()) {
-      name.clear();
-      email.clear();
-      message.clear();
-    }
+    name.clear();
+    email.clear();
+    message.clear();
   }
 
   @override

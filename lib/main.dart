@@ -8,7 +8,7 @@ void main() {
   // runApp(const MyApp());
   runApp(
     DevicePreview(
-      enabled: true,
+      enabled: false,
       builder: (context) => const MyApp(), // Wrap your app
     ),
   );
