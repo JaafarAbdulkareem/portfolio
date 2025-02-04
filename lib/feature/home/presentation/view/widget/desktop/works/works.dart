@@ -19,7 +19,7 @@ class Works extends StatelessWidget {
           textAlign: TextAlign.center,
           style: AppStyles.styleIBMRegular16(context),
         ),
-       const SizedBox(height: 64),
+      //  const SizedBox(height: 24),
         const BodyWorks(),
       ],
     );

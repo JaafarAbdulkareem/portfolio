@@ -38,7 +38,7 @@ class BodyAboutUs extends StatelessWidget {
                       TextSpan(
                         text: '${KeyLanguage.hello.tr(context)} \n',
                         style: AppStyles.styleIBMMedium32(context)
-                            .copyWith(color: const Color(0xFF12F7D6)),
+                            .copyWith(color: AppColor.primary),
                       ),
                       TextSpan(
                         text: KeyLanguage.myNameIs.tr(context),
@@ -47,7 +47,7 @@ class BodyAboutUs extends StatelessWidget {
                       TextSpan(
                         text: KeyLanguage.myName.tr(context),
                         style: AppStyles.styleIBMRegular16(context).copyWith(
-                          color: const Color(0xFF12F7D6),
+                          color: AppColor.primary,
                         ),
                       ),
                       TextSpan(
@@ -58,7 +58,7 @@ class BodyAboutUs extends StatelessWidget {
                       TextSpan(
                         text: KeyLanguage.flutter.tr(context),
                         style: AppStyles.styleIBMRegular16(context).copyWith(
-                          color: const Color(0xFF12F7D6),
+                          color: AppColor.primary,
                         ),
                       ),
                       TextSpan(
@@ -68,7 +68,7 @@ class BodyAboutUs extends StatelessWidget {
                       TextSpan(
                         text: KeyLanguage.android.tr(context),
                         style: AppStyles.styleIBMRegular16(context).copyWith(
-                          color: const Color(0xFF12F7D6),
+                          color: AppColor.primary,
                         ),
                       ),
                       TextSpan(
@@ -78,7 +78,7 @@ class BodyAboutUs extends StatelessWidget {
                       TextSpan(
                         text: KeyLanguage.ios.tr(context),
                         style: AppStyles.styleIBMRegular16(context).copyWith(
-                          color: const Color(0xFF12F7D6),
+                          color: AppColor.primary,
                         ),
                       ),
                       TextSpan(
@@ -100,13 +100,13 @@ class BodyAboutUs extends StatelessWidget {
                       TextSpan(
                         text: '${KeyLanguage.bestRegards.tr(context)}\n',
                         style: AppStyles.styleIBMRegular16(context).copyWith(
-                          color: const Color(0xFF12F7D6),
+                          color: AppColor.primary,
                         ),
                       ),
                       TextSpan(
                         text: '${KeyLanguage.myName.tr(context)}\n',
                         style: AppStyles.styleIBMRegular16(context).copyWith(
-                          color: const Color(0xFF12F7D6),
+                          color: AppColor.primary,
                         ),
                       ),
                     ],

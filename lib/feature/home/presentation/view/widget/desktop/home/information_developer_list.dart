@@ -8,13 +8,16 @@ class InformationDeveloperList extends StatelessWidget {
   const InformationDeveloperList({super.key});
   static const List<InformationDeveloperModel> data = [
     InformationDeveloperModel(
-        image: AppImage.imagesMail, ),
+      image: AppImage.imagesMail,
+    ),
     InformationDeveloperModel(
       image: AppImage.imagesMap,
       title: KeyLanguage.address,
     ),
     InformationDeveloperModel(
-        image: AppImage.imagesBriefcase, title: KeyLanguage.timeWork,),
+      image: AppImage.imagesBriefcase,
+      title: KeyLanguage.timeWork,
+    ),
   ];
   @override
   Widget build(BuildContext context) {
