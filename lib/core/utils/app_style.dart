@@ -14,8 +14,6 @@ double getScaleFactor(BuildContext context) {
   double width = MediaQuery.sizeOf(context).width;
   if (width < ConstantScale.tablet) {
     return width / 700;
-  } else if (width < ConstantScale.desktop) {
-    return width / 1000;
   } else {
     return width / 1800;
   }
