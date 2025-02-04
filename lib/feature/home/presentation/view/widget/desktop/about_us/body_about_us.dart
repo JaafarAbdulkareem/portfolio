@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/controller/language/extension_language.dart';
+import 'package:my_portfolio/core/utils/app_color.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/flutter_text_coder.dart';
@@ -15,7 +16,7 @@ class BodyAboutUs extends StatelessWidget {
           width: 680,
           padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 24),
           decoration: ShapeDecoration(
-            color: const Color(0xFF292F36),
+            color: AppColor.cardBackground,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(40),
             ),
