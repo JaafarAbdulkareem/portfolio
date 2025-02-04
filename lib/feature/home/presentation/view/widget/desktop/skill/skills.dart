@@ -11,7 +11,7 @@ class Skills extends StatelessWidget {
     return const Column(
       children: [
         HeaderTitleWidget(title: KeyLanguage.skill),
-        SizedBox(height: 128),
+        SizedBox(height: 32),
         SkillList(),
       ],
     );
