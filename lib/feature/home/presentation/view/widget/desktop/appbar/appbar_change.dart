@@ -10,7 +10,7 @@ class AppbarChange extends StatelessWidget {
       children: [
         Switch(value: true, onChanged: (value) {}),
         const SizedBox(width: 24),
-        DropdownButton(items: [], onChanged: (value) {}),
+        DropdownButton(items: const [], onChanged: (value) {}),
       ],
     );
   }

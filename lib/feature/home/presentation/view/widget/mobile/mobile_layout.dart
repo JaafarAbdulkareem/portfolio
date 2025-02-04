@@ -21,7 +21,7 @@ class MobileLayout extends StatelessWidget {
         const Center(
           child: CustomDrawer(),
         ),
-        Expanded(child: const BodyMobileLayout()),
+        const Expanded(child: BodyMobileLayout()),
       ],
     );
   }

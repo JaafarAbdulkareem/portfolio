@@ -89,7 +89,7 @@ class MonitorWork extends StatelessWidget {
 
   Widget _buildProjectImage(String assetPath, double minSize, double maxSize) {
     return ConstrainedBox(
-      constraints: BoxConstraints(
+      constraints: const BoxConstraints(
           // minWidth: minSize,
           // maxWidth: maxSize,
           // minHeight: minSize,

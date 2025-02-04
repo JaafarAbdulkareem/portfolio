@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:my_portfolio/core/animation_widget/fill_liquid_svg_button_widget.dart';
 import 'package:my_portfolio/core/controller/language/lang_constant.dart';
 import 'package:my_portfolio/core/controller/language/localizations_delegates.dart';
-import 'package:my_portfolio/core/utils/app_image.dart';
 import 'package:my_portfolio/screen.dart';
-import 'package:my_portfolio/test.dart';
 import 'package:device_preview/device_preview.dart';
 
 void main() {

@@ -7,10 +7,11 @@ import 'package:my_portfolio/core/utils/key_language.dart';
 
 class CustomTwiceButton extends StatelessWidget {
   const CustomTwiceButton({
-    super.key, required this.clean,
+    super.key, required this.clean, required this.send,
   });
 
 
+final VoidCallback send;
 final VoidCallback clean;
   @override
   Widget build(BuildContext context) {
@@ -23,7 +24,7 @@ final VoidCallback clean;
             fillColor: AppColor.percentage,
             text: KeyLanguage.send,
             style: AppStyles.styleIBMRegular24(context),
-            onPressed: () {},
+            onPressed: send,
           ),
         ),
         const SizedBox(width: 24),

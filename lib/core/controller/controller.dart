@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_portfolio/core/utils/app_color.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
 import 'package:my_portfolio/core/utils/send_email.dart';
 import 'package:my_portfolio/core/utils/show_custom_message.dart';
@@ -14,7 +13,7 @@ mixin MethodsHomePageController {
   clean();
   changeDrawerIcon();
 }
-mixin VaraiableHomePageController   {
+mixin VaraiableHomePageController {
   final GlobalKey keyHome = GlobalKey();
   final GlobalKey keyAbouteUs = GlobalKey();
   final GlobalKey keySkills = GlobalKey();
@@ -24,6 +23,7 @@ mixin VaraiableHomePageController   {
   GlobalKey<ScaffoldState> scaffoldState = GlobalKey();
   //*--------------
   GlobalKey<FormState> formState = GlobalKey<FormState>();
+  AutovalidateMode autovalidateMode = AutovalidateMode.disabled;
   late TextEditingController name;
   late TextEditingController email;
   late TextEditingController message;
@@ -32,7 +32,7 @@ mixin VaraiableHomePageController   {
 }
 
 class HomePageControllerImp extends GetxController
-    with VaraiableHomePageController, MethodsHomePageController  {
+    with VaraiableHomePageController, MethodsHomePageController {
   @override
   void onInit() {
     name = TextEditingController();
@@ -78,30 +78,28 @@ class HomePageControllerImp extends GetxController
 
   @override
   sendEmailToAdmin(BuildContext context) async {
-    if (formState.currentState!.validate()) {
-      await sendEmail(
-        userName: name.text,
-        userEmail: email.text,
-        message: message.text,
-      );
-      if (!context.mounted) return;
-      showCustomMessage(
-        context: context,
-        title: KeyLanguage.successfully,
-        body: KeyLanguage.successSendMessage,
-      );
-      name.clear();
-      email.clear();
-      message.clear();
-    } else {
-      showCustomMessage(
-        backgroundColor: AppColor.wrong,
-        icon: Icons.close,
-        context: context,
-        title: KeyLanguage.failed,
-        body: KeyLanguage.failedSendMessage,
-      );
-    }
+    await sendEmail(
+      userName: name.text,
+      userEmail: email.text,
+      message: message.text,
+    );
+    if (!context.mounted) return;
+    showCustomMessage(
+      context: context,
+      title: KeyLanguage.successfully,
+      body: KeyLanguage.successSendMessage,
+    );
+    name.clear();
+    email.clear();
+    message.clear();
+
+    // showCustomMessage(
+    //   backgroundColor: AppColor.wrong,
+    //   icon: Icons.close,
+    //   context: context,
+    //   title: KeyLanguage.failed,
+    //   body: KeyLanguage.failedSendMessage,
+    // );
   }
 
   @override

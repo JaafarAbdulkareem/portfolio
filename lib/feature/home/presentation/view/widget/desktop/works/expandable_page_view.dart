@@ -78,7 +78,7 @@ class ExpandablePageView extends StatefulWidget {
         children = null;
 
   @override
-  _ExpandablePageViewState createState() => _ExpandablePageViewState();
+ State<ExpandablePageView> createState() => _ExpandablePageViewState();
 }
 
 class _ExpandablePageViewState extends State<ExpandablePageView> {
