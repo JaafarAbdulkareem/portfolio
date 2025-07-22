@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:my_portfolio/core/animation_widget/bouncing_animation_widget.dart';
+import 'package:my_portfolio/core/utils/app_color.dart';
+import 'package:my_portfolio/core/utils/app_lottie.dart';
+import 'package:my_portfolio/core/utils/app_style.dart';
+import 'package:my_portfolio/core/utils/constant_text.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/information_developer.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/objective_introduction.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/work_introduction.dart';
@@ -10,8 +15,8 @@ class PersonalIntroduction extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.only(
+    return Padding(
+      padding: const EdgeInsets.only(
         top: 60,
         bottom: 128,
         left: 34,
@@ -21,18 +26,33 @@ class PersonalIntroduction extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(width: 24),
-          Flexible(
+          const SizedBox(width: 24),
+          const Flexible(
             child: ObjectiveIntroduction(),
           ),
-          SizedBox(width: 24),
-          FlipCardWidget(
-            frontend: BouncingAnimationWidget(
-              child: InformationDeveloper(),
-            ),
-            backend: WorkIntroduction(),
+          const SizedBox(width: 24),
+          Column(
+            children: [
+              Text(
+                ConstantText.downArrow * 5,
+                style: AppStyles.styleUbuntuRegular45(context).copyWith(
+                  color: AppColorText.secondard,
+                ),
+              ),
+              const FlipCardWidget(
+                frontend: BouncingAnimationWidget(
+                  child: InformationDeveloper(),
+                ),
+                backend: WorkIntroduction(),
+              ),
+              Lottie.asset(
+                AppLottie.developer,
+                height: 450,
+                width: 450,
+              ),
+            ],
           ),
-          SizedBox(width: 24),
+          const SizedBox(width: 24),
         ],
       ),
     );

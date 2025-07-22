@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/animation_widget/bouncing_animation_widget.dart';
 import 'package:my_portfolio/core/animation_widget/flip_card_widget.dart';
-import 'package:my_portfolio/core/animation_widget/vibrating_widget.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/appbar/appbar_contact.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/download_cv.dart';
 import 'package:my_portfolio/feature/home/presentation/view/widget/desktop/home/information_developer.dart';
@@ -35,11 +34,7 @@ class MobileHome extends StatelessWidget {
           SizedBox(height: 24),
           AppbarContact(),
           SizedBox(height: 24),
-          VibratingWidget(
-            waitingSecond: 3,
-            vibrateCount: 10,
-            child: DownloadCv(),
-          ),
+          DownloadCv(),
           SizedBox(height: 24),
         ],
       ),
