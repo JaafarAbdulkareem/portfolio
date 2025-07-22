@@ -13,7 +13,6 @@ class KeyLanguage {
   static const String codeCommit = 'codeCommit';
   static const String experienceYear = 'experienceYear';
   static const String stateManagement = 'stateManagement';
-  static const String titleObejective = 'titleObejective';
   static const String hello = "hello";
   static const String iam = "iam";
   static const String flutterDeveloper = "flutterDeveloper";

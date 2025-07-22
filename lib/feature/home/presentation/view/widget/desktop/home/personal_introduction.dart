@@ -19,10 +19,12 @@ class PersonalIntroduction extends StatelessWidget {
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(width: 24),
-          Flexible(child: ObjectiveIntroduction()),
+          Flexible(
+            child: ObjectiveIntroduction(),
+          ),
           SizedBox(width: 24),
           FlipCardWidget(
             frontend: BouncingAnimationWidget(

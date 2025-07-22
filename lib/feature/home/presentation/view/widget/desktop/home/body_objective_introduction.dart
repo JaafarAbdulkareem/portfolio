@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:my_portfolio/core/controller/language/extension_language.dart';
 import 'package:my_portfolio/core/utils/app_color.dart';
+import 'package:my_portfolio/core/utils/app_lottie.dart';
 import 'package:my_portfolio/core/utils/app_style.dart';
 import 'package:my_portfolio/core/utils/constant_scale.dart';
 import 'package:my_portfolio/core/utils/key_language.dart';
@@ -17,14 +19,14 @@ class BodyObjectiveIntroduction extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SizedBox(height: 24),
+        Lottie.asset(
+          AppLottie.welcome,
+          height: 450,
+          width: 450,
+        ),
         Text.rich(
           TextSpan(
             children: [
-              TextSpan(
-                text: "${KeyLanguage.hello.tr(context)}\n",
-                style: AppStyles.styleUbuntuRegular45(context),
-              ),
               TextSpan(
                 text: "${KeyLanguage.iam.tr(context)}\n",
                 style: AppStyles.styleUbuntuRegular45(context).copyWith(
