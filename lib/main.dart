@@ -3,8 +3,11 @@ import 'package:my_portfolio/core/controller/language/lang_constant.dart';
 import 'package:my_portfolio/core/controller/language/localizations_delegates.dart';
 import 'package:my_portfolio/screen.dart';
 import 'package:device_preview/device_preview.dart';
+// import 'package:rive/rive.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // await RiveNative.init();
   // runApp(const MyApp());
   runApp(
     DevicePreview(
